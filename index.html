@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy &amp; Legal Disclosures — Vellum (Quiet Privacy &amp; Ad Shield)</title>
+  <meta name="description" content="Official Privacy Policy, Chrome Web Store User Data Disclosures, and Terms of Use for Vellum — Quiet Privacy & Ad Shield." />
+  <style>
+    :root {
+      --bg-parchment: #F9F7F1;
+      --bg-card: #FFFFFF;
+      --bg-sand: #F2ECE1;
+      --ink-primary: #1F1E1D;
+      --ink-secondary: #5C5852;
+      --ink-muted: #7A756D;
+      --accent-terracotta: #C96442;
+      --accent-terracotta-soft: #FBECE6;
+      --accent-sage: #4E6E58;
+      --accent-sage-soft: #E8F0EA;
+      --border-sketch: #1F1E1D;
+      --border-soft: #D8D2C5;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-parchment);
+      color: var(--ink-primary);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      background-image:
+        linear-gradient(to right, rgba(31, 30, 29, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(31, 30, 29, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      padding: 48px 20px 80px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .header-card {
+      background: var(--bg-card);
+      border: 2px solid var(--border-sketch);
+      border-radius: 20px;
+      box-shadow: 6px 7px 0px var(--border-sketch);
+      padding: 36px 40px;
+      margin-bottom: 32px;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .emblem {
+      width: 64px;
+      height: 64px;
+      flex-shrink: 0;
+    }
+
+    .badge-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 13px;
+      border-radius: 999px;
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border: 1.5px solid var(--border-sketch);
+      background: var(--bg-sand);
+      box-shadow: 2px 2px 0px var(--border-sketch);
+    }
+
+    .pill-sage {
+      background: var(--accent-sage-soft);
+      color: #2E5239;
+      border-color: var(--accent-sage);
+      box-shadow: 2px 2px 0px var(--accent-sage);
+    }
+
+    .pill-terracotta {
+      background: var(--accent-terracotta-soft);
+      color: #9E4325;
+      border-color: var(--accent-terracotta);
+      box-shadow: 2px 2px 0px var(--accent-terracotta);
+    }
+
+    h1 {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 36px;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 16.5px;
+      color: var(--ink-secondary);
+    }
+
+    .meta-bar {
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1.5px dashed var(--border-soft);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--ink-muted);
+      font-family: 'Cascadia Code', 'Consolas', monospace;
+    }
+
+    .summary-banner {
+      background: var(--accent-sage-soft);
+      border: 2px solid var(--border-sketch);
+      border-radius: 16px;
+      box-shadow: 4px 5px 0px var(--border-sketch);
+      padding: 24px 28px;
+      margin-bottom: 28px;
+    }
+
+    .summary-banner h2 {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 21px;
+      color: #21402B;
+      margin-bottom: 8px;
+    }
+
+    .summary-banner p {
+      font-size: 15px;
+      color: #294A34;
+    }
+
+    .section-card {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-sketch);
+      border-radius: 16px;
+      box-shadow: 4px 5px 0px var(--border-sketch);
+      padding: 30px 36px;
+      margin-bottom: 24px;
+    }
+
+    .section-card h2 {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 24px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 8px;
+      background: var(--bg-sand);
+      border: 1.5px solid var(--border-sketch);
+      font-family: 'Cascadia Code', 'Consolas', monospace;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .section-card p {
+      color: var(--ink-secondary);
+      margin-bottom: 14px;
+      font-size: 15.5px;
+    }
+
+    .section-card ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .section-card li {
+      position: relative;
+      padding: 14px 18px;
+      background: var(--bg-parchment);
+      border: 1px solid var(--border-soft);
+      border-radius: 12px;
+      font-size: 15px;
+      color: var(--ink-secondary);
+    }
+
+    .section-card li strong {
+      color: var(--ink-primary);
+    }
+
+    code {
+      font-family: 'Cascadia Code', 'Consolas', monospace;
+      font-size: 13px;
+      background: var(--bg-sand);
+      padding: 2px 6px;
+      border-radius: 5px;
+      border: 1px solid var(--border-soft);
+      color: var(--ink-primary);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      font-size: 14.5px;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border-soft);
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--bg-sand);
+      font-weight: 700;
+      color: var(--ink-primary);
+      font-size: 12.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    td {
+      color: var(--ink-secondary);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13.5px;
+      color: var(--ink-muted);
+    }
+
+    @media (max-width: 640px) {
+      .header-card, .section-card {
+        padding: 24px 20px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header-card">
+      <div class="badge-row">
+        <span class="pill pill-terracotta">OFFICIAL PRIVACY POLICY</span>
+        <span class="pill pill-sage">✓ 100% LOCAL &amp; ZERO TELEMETRY</span>
+        <span class="pill">MANIFEST V3</span>
+      </div>
+      <div class="brand-row">
+        <svg class="emblem" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="8" width="104" height="104" rx="26" fill="#F2ECE1" stroke="#1F1E1D" stroke-width="3"/>
+          <path d="M60 22 L92 35 V59 C92 81 77 96 60 102 C43 96 28 81 28 59 V35 L60 22 Z" fill="#D97757" stroke="#1F1E1D" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M60 29 L85 39 V58 C85 75 73 88 60 93 C47 88 35 75 35 58 V39 L60 29 Z" fill="#F9F7F1" stroke="#1F1E1D" stroke-width="2.2" stroke-linejoin="round"/>
+          <path d="M47 63 C52 50, 65 44, 74 42 C72 55, 65 67, 50 71 Z" fill="#4E6E58" stroke="#1F1E1D" stroke-width="2.2" stroke-linejoin="round"/>
+          <path d="M45 74 Q58 60 72 44" stroke="#1F1E1D" stroke-width="2.4" stroke-linecap="round"/>
+        </svg>
+        <div>
+          <h1>Vellum — Quiet Privacy &amp; Ad Shield</h1>
+          <div class="subtitle">Privacy Policy, Chrome Web Store Data Disclosures &amp; Terms of Use</div>
+        </div>
+      </div>
+      <div class="meta-bar">
+        <span>EXTENSION VERSION: v2.4.0</span>
+        <span>EFFECTIVE DATE: OCTOBER 20, 2026</span>
+        <span>STATUS: ZERO DATA COLLECTION</span>
+      </div>
+    </header>
+
+    <div class="summary-banner">
+      <h2>Short Summary: We Collect Nothing.</h2>
+      <p>
+        <strong>Vellum operates 100% locally on your device.</strong> We do not have backend servers, we do not run analytics or telemetry, and we never collect, log, store, transmit, or sell your browsing history, IP address, visited websites, or personal data.
+      </p>
+    </div>
+
+    <section class="section-card">
+      <h2><span class="section-num">01</span> Zero Data Collection Policy</h2>
+      <p>
+        Vellum ("the Extension") is engineered from the ground up as a local-first browser sanctuary. Every anti-fingerprinting disguise, ad-blocking rule, and malware heuristic executes strictly inside your own browser instance.
+      </p>
+      <ul>
+        <li>
+          <strong>No Personal or Browsing Data Collected:</strong> Vellum does not collect, read, log, transmit, or share your browsing history, visited URLs, search queries, form inputs, cookies, authentication credentials, IP addresses, or device identifiers.
+        </li>
+        <li>
+          <strong>No External Servers or Analytics:</strong> Vellum makes zero outbound network connections to any developer server, cloud API, or third-party telemetry/analytics provider.
+        </li>
+        <li>
+          <strong>100% On-Device Storage (<code>chrome.storage.local</code>):</strong> Your user preferences—such as whether the <em>"Enhance Security and Block Ads"</em> toggle is enabled, your active hardware disguise profile, and your personal list of whitelisted websites—are saved strictly inside your browser's local storage on your machine and never leave your device.
+        </li>
+        <li>
+          <strong>No Remote Code Execution:</strong> All JavaScript modules and Declarative Net Request (DNR) rulesets are bundled inside the signed Chrome Web Store package. Vellum never fetches or evaluates remote scripts or external filter lists.
+        </li>
+      </ul>
+    </section>
+
+    <section class="section-card">
+      <h2><span class="section-num">02</span> How Browser Permissions Are Used Locally</h2>
+      <p>
+        To protect your browser across the web, Vellum requests only the minimum Manifest V3 permissions required to perform local network filtering and entropy masking:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 32%;">Permission</th>
+            <th>Strict Local Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>&lt;all_urls&gt;</code> &amp; <code>scripting</code></td>
+            <td>Required to inject Vellum's deterministic anti-fingerprinting hooks (Canvas, WebGL, WebAudio, Font Metrics, Navigator, Timezone) and surgical cosmetic ad-slot cleanup before third-party tracking scripts can fingerprint your device.</td>
+          </tr>
+          <tr>
+            <td><code>declarativeNetRequest</code> &amp; <code>declarativeNetRequestWithHostAccess</code></td>
+            <td>Uses Chrome's native Manifest V3 Declarative Net Request engine to block known third-party advertising networks, cross-site tracking beacons, and strip tracking URL parameters (such as <code>utm_*</code>, <code>fbclid</code>, and <code>gclid</code>) locally.</td>
+          </tr>
+          <tr>
+            <td><code>storage</code></td>
+            <td>Stores your toggle states, selected hardware disguise persona, session seed, and whitelisted sites locally on your computer via <code>chrome.storage.local</code>.</td>
+          </tr>
+          <tr>
+            <td><code>tabs</code> &amp; <code>webNavigation</code></td>
+            <td>Used locally to display the active tab's domain name in the Vellum popup for one-click site whitelisting, and to show a local security interception warning page if you navigate to a deceptive punycode or malware domain.</td>
+          </tr>
+          <tr>
+            <td><code>privacy</code></td>
+            <td>Used locally to configure Chrome's built-in WebRTC IP handling policy (<code>disable_non_proxied_udp</code>) so websites cannot leak your local LAN or VPN-bypass IP address via STUN requests.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section-card">
+      <h2><span class="section-num">03</span> Chrome Web Store Limited Use Disclosure</h2>
+      <p>
+        Vellum's use of information received from Google Chrome APIs adheres strictly to the <strong>Chrome Web Store Developer Program Policies</strong>, including the <strong>Limited Use</strong> requirements:
+      </p>
+      <ul>
+        <li>We do <strong>not</strong> collect, transfer, or sell any user data to third parties, advertising platforms, data brokers, or information resellers.</li>
+        <li>We do <strong>not</strong> use or transfer any user data for serving personalized, retargeted, or interest-based advertisements.</li>
+        <li>We do <strong>not</strong> use or transfer any user data to determine creditworthiness or for lending purposes.</li>
+      </ul>
+    </section>
+
+    <section class="section-card">
+      <h2><span class="section-num">04</span> Terms of Use &amp; Legal Disclaimer</h2>
+      <p>
+        Vellum is provided <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+      </p>
+      <ul>
+        <li>
+          <strong>Lawful Defensive Privacy Use:</strong> Vellum is designed solely as a defensive privacy and security tool to protect everyday users from intrusive advertisements, cross-site browser fingerprinting, and deceptive phishing/malware domains.
+        </li>
+        <li>
+          <strong>Website Compatibility &amp; Whitelisting:</strong> Because Vellum masks hardware entropy APIs and blocks third-party tracking scripts, certain websites that rely on strict device fingerprinting may behave differently. You can pause protection on any website with a single click using the <strong>Protected / Whitelisted</strong> button in the Vellum popup.
+        </li>
+        <li>
+          <strong>Limitation of Liability:</strong> In no event shall the authors, developers, or contributors of Vellum be liable for any direct, indirect, incidental, special, exemplary, or consequential damages arising out of the use or inability to use the Extension.
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p><strong>Vellum — Quiet Privacy &amp; Ad Shield (v2.4.0)</strong> · Published by SuparvaCode</p>
+      <p style="margin-top: 6px;">For questions, bug reports, or privacy inquiries, please open an issue on our official GitHub repository.</p>
+    </footer>
+  </div>
+</body>
+</html>
